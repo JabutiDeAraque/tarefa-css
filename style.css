@@ -1,6 +1,6 @@
 /*** GERAL ***/
 html{
-     background-color: #8d6d5a;
+     background-color: #d1b8a2;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, "Lilita One", Verdana, sans-serif;
     }
 
@@ -37,44 +37,47 @@ header {
     width: auto;
     height: 8vh;
     max-height: 65px;
-    
+    min-height: 47.5px;
     background-color: #34120c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .title {
     float: inline-start;
     margin-top: .1vmax ;
     margin-left: 1vmax;
 }
-menu a{
-    float: right;
-    display: block;
+menu ul{
     padding: 5px;
     margin-top: .75vmax;
     margin-right: 1vmax;
+    display: flex;
+}
+.links {
+    padding: 8px 16px;
+    gap: 10px;
 }
 
 
   /*** INTRODUÇÃO ***/
 .intro {
-    width: auto;
-    height: auto;
-    min-height: 37vh;
+    height: 318px;
     background-color: #bba288;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .resumo {
-    max-width: 95.5vw;
-    
-}
-.texto-resumo {
-    max-width: 1023px;
-    margin: 10px;
+    width: 40vw;
+    transform: translate(-19px, -18px);
 }
 .foto {
-    width: 14vmax;
+    width: 16.6vmax;
     min-width: 170px;
     border-width: 4px;
     border-color: #6b2f18;
-    border-style: dashed;
+    border-style: solid;
     border-radius: 100%;
     margin-top: 1.6vmax;
     margin-left: 11.5vmax;
@@ -85,35 +88,67 @@ menu a{
 }
 
   /*** CURIOSIDADES ***/
+  .dados {
+    display:flex;
+    justify-content: space-around;
+    height: 45.3vh;
+  }
 .curiosidades {
-    width: auto;
-    height: 48vh;
-    background-color: #d1b8a2;
+    width: 50vw;
+    height: auto;
+    background-color: #0307ff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
 }
-.top{
-display: inline;
-float: right;
-padding: 10px;
-margin-right: 10px;
+.curiosidades2 {
+    width: 50vw;
+    height: auto;
+    background-color: #ff030300;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+.top {
+    padding-top: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+}
+.top-corpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 .hobbies {
-display: block;
-float: left;
-padding: 10px;
-text-align: right;
-margin-left: 10px;
+    padding-top: 10px;
+    text-align: right;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    align-content: center;
+}
+.hobbies-corpo {
+    text-align: right;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .hobby {
-    display: block;
     background-color: #34120c;
-    align-content:flex-end;
-    width: 110px;
+    align-content: flex-end;
+    width: 102px;
     height: 150px;
-    margin: 6px;
+    margin: 4.5px;
     margin-top: 20px;
-    padding: 8px;
-    float: left;
-    font-size: .75em;
+    padding: 17px;
+    gap: 10px;
+    font-size: .70em;
     color: #83381a;
     box-sizing: border-box;
 }
@@ -125,16 +160,15 @@ margin-left: 10px;
        box-shadow: 2px 2px 5px #883607c4;
 }
 .top5 {
-    display: block;
     background-color: #34120c;
-    align-content:center;
-    width: 110px;
+    align-content: center;
+    width: 102px;
     height: 150px;
-    margin: 5px;
+    margin: 4.5px;
     margin-top: 20px;
-    padding: 8px;
-    float: right;
-    font-size: .75em;
+    padding: 17px;
+    gap: 10px;
+    font-size: .70em;
     color: #34120c;
     box-sizing: border-box;
 }
@@ -146,10 +180,11 @@ margin-left: 10px;
        box-shadow: 2px 2px 5px #883607c4;
 }
 .fig {
-    width: 95px;
+    width: 88px;
+    transform: translate(-10px, -1px);
 }
 .top1 {
-    margin-top: -18px;
+    margin-top: -24px;
     margin-bottom: 2px;
     width: 20px;
     height: 18px;
@@ -161,7 +196,7 @@ margin-left: 10px;
     border-bottom-right-radius: 15%;
 }
 .top2 {
-    margin-top: -18px;
+    margin-top: -24px;
     margin-bottom: 2px;
     width: 20px;
     height: 18px;
@@ -173,7 +208,7 @@ margin-left: 10px;
     border-bottom-right-radius: 15%;
 }
 .top3 {
-    margin-top: -18px;
+    margin-top: -24px;
     margin-bottom: 2px;
     width: 20px;
     height: 18px;
@@ -185,7 +220,7 @@ margin-left: 10px;
     border-bottom-right-radius: 15%;
 }
 .top-av {
-    margin-top: -18px;
+    margin-top: -24px;
     margin-bottom: 2px;
     width: 20px;
     height: 18px;
@@ -196,15 +231,19 @@ margin-left: 10px;
 }
   /*** CONTATO ***/
 
-.contato {
-    height: 5vh;
+footer {
+    height: 7vh;
+    background-color: #8d6d5a;
+    float: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }  
 footer a {
     display: block;
     padding-left: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    float: left;
     margin-left: 3vw;
     margin-top: 1vh;
     width: auto;
@@ -219,14 +258,21 @@ footer img{
     color:#d1b8a2;
     background-color:#34120c;
     border-style: none;
-    margin-top: 2vh;
+    margin-top: 1.1vh;
     margin-right: 10vw;
-    width:auto;
-    height: 4vh;
-    border-radius: 7%;
-    float: inline-end;
+    width: 162px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 8px 16px;
     
 }
 .botao:hover {
     border: 2px solid rgba(255, 255, 255, 0.863);
 }
+.redes-sociais {
+    display: flex;
+    align-items: center;
+}
+/* ESTILOS RESPONSIVOS*/
+
+ 

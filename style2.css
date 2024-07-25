@@ -1,0 +1,252 @@
+/*** GERAL ***/
+html{
+    background-color: #d1b8a2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, "Lilita One", Verdana, sans-serif;
+   }
+
+ /*TEXTOS*/
+    .titulo {
+    font-size: 2.7em;
+    color: antiquewhite;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    }
+
+    .subtitulo {
+    font-size: 2em;
+    color: #83381a;
+    font-style: italic;
+    }
+
+    .paragrafo {
+    font-size: .8em;
+    color: #411a04;
+    max-width: 1240px;
+    }
+    menu a {
+       font-size: 1.6em;
+       color: #b46f53;
+       text-decoration: none;
+    }
+   
+
+/*** BODY ***/
+
+ /* HEADER */
+header {
+   width: auto;
+   height: 8vh;
+   max-height: 65px;
+   min-height: 47.5px;
+   background-color: #34120c;
+}
+.title {
+   float: inline-start;
+   margin-top: .1vmax ;
+   margin-left: 1vmax;
+}
+menu a{
+   float: right;
+   display: block;
+   padding: 5px;
+   margin-top: .75vmax;
+   margin-right: 1vmax;
+}
+
+
+ /*** INTRODUÇÃO ***/
+.intro {
+   width: auto;
+   height: auto;
+   max-height: 380px;
+   min-height: 37vh;
+   background-color: #bba288;
+}
+.resumo {
+   max-width: 95.5vw;
+   
+}
+.texto-resumo {
+   max-width: 1023px;
+   margin: 10px;
+}
+.foto {
+   width: 14vmax;
+   min-width: 170px;
+   border-width: 4px;
+   border-color: #6b2f18;
+   border-style: dashed;
+   border-radius: 100%;
+   margin-top: 1.6vmax;
+   margin-left: 11.5vmax;
+   margin-right: 10vw;
+
+   float: left;
+   display: inline;
+}
+
+ /*** CURIOSIDADES ***/
+.curi-hobby {
+   width: auto;
+   height: auto;
+   background-color: #0307ff00;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+      
+}
+.curi-top {
+   width: auto;
+   height: auto;
+   min-height: 48vh;
+   background-color: #ff030300;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.top{
+display: inline;
+float: right;
+padding: 10px;
+margin-right: 10px;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
+.hobbies {
+display: block;
+float: left;
+padding: 10px;
+text-align: right;
+margin-left: 10px;
+height: auto;
+}
+.hobby {
+   display: block;
+   background-color: #34120c;
+   align-content:flex-end;
+   width: 110px;
+   height: 150px;
+   margin: 6px;
+   margin-top: 20px;
+   padding: 8px;
+   float: left;
+   font-size: .75em;
+   color: #83381a;
+   box-sizing: border-box;
+}
+.hobby:hover{
+      color: rgba(255, 255, 255, 0.685);
+      margin-top: 10px;
+      border: 2px solid white;
+      background-color: #8f4021;
+      box-shadow: 2px 2px 5px #883607c4;
+}
+.top5 {
+   display: block;
+   background-color: #34120c;
+   align-content:center;
+   width: 110px;
+   height: 150px;
+   margin: 5px;
+   margin-top: 20px;
+   padding: 8px;
+   float: right;
+   font-size: .75em;
+   color: #34120c;
+   box-sizing: border-box;
+}
+.top5:hover {
+   color: rgba(255, 255, 255, 0.685);
+      margin-top: 10px;
+      border: 2px solid white;
+      background-color: #8f4021;
+      box-shadow: 2px 2px 5px #883607c4;
+}
+.fig {
+   width: 95px;
+}
+.top1 {
+   margin-top: -18px;
+   margin-bottom: 2px;
+   width: 20px;
+   height: 18px;
+   background-color: goldenrod;
+   text-align:center;
+   font-size: large;
+   padding-top: 15px;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+}
+.top2 {
+   margin-top: -18px;
+   margin-bottom: 2px;
+   width: 20px;
+   height: 18px;
+   background-color: silver;
+   text-align:center;
+   font-size: large;
+   padding-top: 15px;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+}
+.top3 {
+   margin-top: -18px;
+   margin-bottom: 2px;
+   width: 20px;
+   height: 18px;
+   background-color: rgb(114, 66, 21);
+   text-align:center;
+   font-size: large;
+   padding-top: 15px;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+}
+.top-av {
+   margin-top: -18px;
+   margin-bottom: 2px;
+   width: 20px;
+   height: 18px;
+   background-color: #34120c;
+   padding-top: 15px;
+   text-align:center;
+   font-size: large;
+}
+ /*** CONTATO ***/
+
+footer {
+   height: 7vh;
+   background-color: #8d6d5a;
+   float: inherit;
+}  
+footer a {
+   display: block;
+   padding-left: 5px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   float: left;
+   margin-left: 3vw;
+   margin-top: 1vh;
+   width: auto;
+   box-sizing: border-box;
+}
+footer img{
+   border-radius: 100%;
+   height: 2vmax;
+   min-height: 30px;
+}
+.botao{
+   color:#d1b8a2;
+   background-color:#34120c;
+   border-style: none;
+   margin-top: 2vh;
+   margin-right: 10vw;
+   width:auto;
+   height: 4vh;
+   border-radius: 7%;
+   float: inline-end;
+   
+}
+.botao:hover {
+   border: 2px solid rgba(255, 255, 255, 0.863);
+}
