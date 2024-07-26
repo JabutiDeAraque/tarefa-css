@@ -285,52 +285,7 @@ footer img{
     align-items: center;
 }
 
-/* ESTILOS RESPONSIVOS*/
-@media screen and (max-width: 1024px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    menu a {
-        margin: 0 10px;
-    }
-
-    .intro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .foto {
-        margin: 0;
-        margin-top: 1.6vmax;
-    }
-
-    .resumo {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .curiosidades {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hobbies, .top {
-        float: none;
-        text-align: center;
-        margin: 0;
-    }
-
-    .hobby, .top5 {
-        float: none;
-        margin: 10px 0;
-    }
-}
-
+/***** ESTILO RESPONSIVO *****/
 @media screen and (max-width: 430px) {
     .titulo {
         font-size: 1.9em;
@@ -364,6 +319,10 @@ footer img{
     header {
         height: 47.5px;
     }
+
+
+ /******** MENU HAMBURGUER *******/
+
 
     .menu-in{
         display: flex;
@@ -435,6 +394,10 @@ footer img{
         height: 147px;
     }
 
+
+/*****************************************************************************************/
+
+
     .intro {
         display: flex;
         justify-content: space-around;
@@ -461,6 +424,7 @@ footer img{
         text-align: left;
         padding: 10px;
     }
+
     .curiosidades {
         display: flex;
         height: 425px;
@@ -501,6 +465,7 @@ footer img{
         padding: 10px;
         display: flex;
     }
+
     .top5 {
         width: 104px;
         height: 150px;
