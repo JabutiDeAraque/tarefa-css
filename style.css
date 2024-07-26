@@ -285,7 +285,52 @@ footer img{
     align-items: center;
 }
 
-/***** ESTILO RESPONSIVO *****/
+/* ESTILOS RESPONSIVOS*/
+@media screen and (max-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    menu a {
+        margin: 0 10px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto {
+        margin: 0;
+        margin-top: 1.6vmax;
+    }
+
+    .resumo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .curiosidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hobbies, .top {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    .hobby, .top5 {
+        float: none;
+        margin: 10px 0;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .titulo {
         font-size: 1.9em;
@@ -465,7 +510,7 @@ footer img{
         padding: 10px;
         display: flex;
     }
-
+    
     .top5 {
         width: 104px;
         height: 150px;
