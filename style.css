@@ -31,7 +31,7 @@ html{
      }
 
      menu a {
-        font-size: 1.6em;
+        font-size: 1.2em;
         color: #b46f53;
         text-decoration: none;
      }
@@ -300,34 +300,62 @@ footer img{
     .intro {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        height: auto;
     }
 
     .foto {
         margin: 0;
-        margin-top: 1.6vmax;
+        margin: auto;
+        margin-top: 1.8vmax;
     }
 
     .resumo {
-        text-align: center;
-        margin-top: 20px;
+        margin-left: 20vw; 
+        margin-top: 1px;
+        width: 440px;
     }
 
-    .curiosidades {
+    .curiosidades, .curiosidades2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: auto;
     }
+
+    .dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
 
     .hobbies, .top {
         float: none;
         text-align: center;
         margin: 0;
+        align-items: flex-start;
     }
 
     .hobby, .top5 {
         float: none;
         margin: 10px 0;
+    }
+
+    .hobbies-corpo, .top-corpo {
+        gap: 10px;
+        margin-left: 20px;
+        margin-bottom: 22px;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .botao {
+        margin-right: 0;
     }
 }
 
